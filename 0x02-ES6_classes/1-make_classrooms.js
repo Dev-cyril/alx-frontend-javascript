@@ -6,11 +6,7 @@ export default function initializeRooms (){
 	const sec = new ClassRoom(20);
 	const th = new ClassRoom(34);
 
-	const arr = [
-		`ClassRoom { _maxStudentsSize: ${fs._maxStudentsSize }}`,
-		`ClassRoom { _maxStudentsSize: ${sec._maxStudentsSize }}`,
-		`ClassRoom { _maxStudentsSize: ${th._maxStudentsSize} }`
-	];
+	const arr = [fs, sec, th];
 
 	return (arr);
 }
